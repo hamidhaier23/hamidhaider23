@@ -1,0 +1,45 @@
+    body{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    div.mainflex{
+        flex-wrap:wrap;
+        display:flex;
+        background-color: rgb(178, 216, 228);
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px 10px gray;
+        height: 650px;
+        width:800px;
+       align-content: center;
+       justify-content: center;
+    }
+div.flexbox{
+    display: flex;
+    width: 220px;
+    height: 340px;
+    background-color: white;
+    flex-wrap: wrap;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+    align-content: center;
+    justify-content: center;
+}
+.tag1, .tag2{
+    text-align: center;
+    padding: 10px;
+}
+.tag1{
+    font-weight: bold;
+}
+.tag2{
+    color:gray;
+}
+/* .footer{
+    border: 5px solid black;
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    align-self:last baseline;
+} */
